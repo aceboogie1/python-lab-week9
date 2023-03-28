@@ -1,12 +1,4 @@
 def get_name():
-    """
-    Create a function get_name that asks the for 3 names, add the names to a list, sorts the list,
-    and returns the list of sorted names.
-
-    Change get_name to asks for 3 names, split the user name into first and last name, then returns
-    the sorted list of users first and last name as a list to main.  get_name can sort by either first
-    or last name.
-    """
     #
     # students should write the code for this function
     #
@@ -25,11 +17,7 @@ def get_name():
     return name_list
 
 
-def create_greeting(name):
-    """
-    The greeting should be a greeting like "Hello Gabriel, how old are you?",
-    "Welcome Gabriel, how old are you?", or "Dear Gabriel, how old are you?".
-    """
+def create_greeting(name): 
     greeting_list = ["Hello", "Welcome", "Dear", "Hi", "Yoroshiku", "Konnichiwa"]
 
     # import the random module, and use choice to make random choices
@@ -43,13 +31,6 @@ def create_greeting(name):
 
 
 def get_age(name_list):
-    """
-    get_age takes as input a list of names, it creates a random greeting (a string) for each person.
-    For each person, get_age then asks the user how old they are and rprints their age.
-    The greeting should be a greeting like "Hello Gabriel, how old are you?", "Welcome Gabriel, how old are you?",
-    or "Dear Gabriel, how old are you?".
-    get_age returns a list of ages
-    """
     #
     # students should write the code for this function
     #
